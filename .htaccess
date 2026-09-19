@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteRule ^$ index.php [L]
+    RewriteRule ^meine_abmeldungen$ sites/abmeldungen_all.php [L]
+    RewriteRule ^admin_logs$ sites/admin_logs.php [L]
+    RewriteRule ^kalender$ sites/kalender.php [L]
+    RewriteRule ^leitung_abmeldungen$ sites/leitung_abmeldungen.php [L]
+    RewriteRule ^leitung_meetings$ sites/leitung_meetings.php [L]
+    RewriteRule ^leitung_bewerbungssperren$ sites/leitung_sperren.php [L]
+    RewriteRule ^leitung_user_detail$ sites/leitung_user_detail.php [L]
+    RewriteRule ^leitung_teammitglieder$ sites/leitung_users.php [L]
+    RewriteRule ^login$ sites/login.php [L]
+    RewriteRule ^logout$ sites/logout.php [L]
+    RewriteRule ^meine_strafen$ sites/meine_warns.php [L]
+    RewriteRule ^admin_system$ sites/system.php [L]
+    RewriteRule ^team_meeting_detail$ sites/team_meeting_detail.php [L]
+    RewriteRule ^team_meeting_print$ sites/team_meeting_print.php [L]
+    RewriteRule ^team_meetings$ sites/team_meetings.php [L]
+</IfModule>

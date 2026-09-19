@@ -1,0 +1,9 @@
+{
+    "config-version": 1,
+    "version": 1.0,
+    "database.address": "127.0.0.1:3306",
+    "database.database": "teampanel",
+    "database.username": "root",
+    "database.password": "",
+    "discord.webhook": "WEBHOOK_URL"
+}

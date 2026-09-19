@@ -1,0 +1,30 @@
+body, p, h1, h2, h3, h4, h5, h6 { 
+    color: #d1d1d1 !important; 
+}
+
+body { background-color: #121212 !important; }
+
+.calendar-card { background-color: #1e1e1e; border: 1px solid #333; }
+.calendar-header { background-color: #252525; color: #ffffff; border-bottom: 1px solid #333; }
+.calendar-table { border: 1px solid #333; color: #d1d1d1; }
+.calendar-table th { background-color: #2a2a2a; color: #ffffff; text-align: center; padding: 10px; }
+.calendar-table td { background-color: #121212; border: 1px solid #333; height: 100px; width: 14.28%; vertical-align: top; padding: 5px; }
+
+.day-num { color: #888; font-weight: bold; font-size: 0.9rem; }
+
+.abs-badge {
+    background-color: #FF5555;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    margin-top: 3px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.2s;
+}
+
+.abs-badge:hover { background-color: #d64646; }
